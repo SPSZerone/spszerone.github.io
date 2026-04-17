@@ -1,0 +1,4 @@
+*.DS_Store
+/.idea/
+TEMP*.adoc
+TEMP*.md
