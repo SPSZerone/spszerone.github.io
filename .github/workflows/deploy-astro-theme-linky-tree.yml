@@ -28,6 +28,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: SPSZerone/astro-theme-linky-tree
+          ref: publish
           path: ${{ env.BUILD_PATH }}
           # token: ${{ secrets.REPO_PAT }}
 
