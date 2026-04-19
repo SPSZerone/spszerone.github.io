@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  BUILD_PATH: "."
+  BUILD_PATH: "./astro-theme-linky-tree"
 
 jobs:
   build:
