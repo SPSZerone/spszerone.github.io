@@ -21,6 +21,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo Current (Source Code)
+        uses: actions/checkout@v4
+
       - name: Checkout Repo astro-theme-linky-tree (Source Code)
         uses: actions/checkout@v4
         with:
