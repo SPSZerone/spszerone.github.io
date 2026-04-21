@@ -27,16 +27,20 @@ Choose your preferred theme to explore +
 ____
 
 ****
-.*{theme-darkness-url}* | Homepage style: Deep Space | 主页风格：深邃宇宙
+.*{theme-darkness-url}* | *Homepage style*: Deep Space | *主页风格*：深邃宇宙
 [%collapsible]
 ====
-[cols="<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
+[cols="^.^1a,<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
 |===
+| Category +
+类别
 ^.^| English
 ^.^| 简体中文
 
 |
-Homepage style: Deep Space::
+*Homepage style:* Deep Space +
+*主页风格*：深邃宇宙
+|
 * Modern Animations
 * Dark Aesthetics
 * Motion-Rich\nDark Tech / Sci-Fi
@@ -44,9 +48,7 @@ Homepage style: Deep Space::
 * Cyber Neon
 * Deep Space / Starry
 * Immersive
-
 |
-主页风格：深邃宇宙::
 * 现代动画
 * 深色美学
 * 动作丰富
@@ -59,66 +61,74 @@ Homepage style: Deep Space::
 ====
 
 
-.{theme-anglefeint-url} | Homepage style: Geek, Cyberpunk | 主页风格：赛博极客
+.{theme-anglefeint-url} | *Homepage style*: Geek, Cyberpunk | *主页风格*：赛博极客
 [%collapsible]
 ====
-[cols="<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
+[cols="^.^1a,<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
 |===
+| Category +
+类别
 ^.^| English
 ^.^| 简体中文
 
 |
-Homepage style: Geek, Cyberpunk::
+*Homepage style:* Geek, Cyberpunk +
+*主页风格*：赛博极客
+|
 * Geek
 * Cyberpunk
 * Sci-Fi
 * Retro Terminal
-
-Feature::
-* Language
-
 |
-主页风格：赛博极客::
 * 极客
 * 赛博朋克
 * 未来科幻
 * 复古终端
 
-功能::
+|
+*Feature* +
+*功能*
+|
+* Language
+|
 * 语言
 
 |===
 ====
 
 
-.{theme-twilight-url} | Homepage style: Fresh & Aesthetic | 主页风格：清新唯美
+.{theme-twilight-url} | *Homepage style*: Fresh & Aesthetic | *主页风格*：清新唯美
 [%collapsible]
 ====
-[cols="<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
+[cols="^.^1a,<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
 |===
+| Category +
+类别
 ^.^| English
 ^.^| 简体中文
 
 |
-Homepage style: Fresh & Aesthetic::
+*Homepage style:* Fresh & Aesthetic +
+*主页风格*：清新唯美
+|
 * Glassmorphism
 * Modern & Minimalist
 * Card-based Layout
 * Fresh & Aesthetic
-
-Feature::
-* Language
-* Theme Color
-* Light/Dark Mode
-
 |
-主页风格：清新唯美::
 * 毛玻璃拟态
 * 现代简约
 * 卡片式布局
 * 清新唯美
 
-功能::
+|
+*Feature* +
+*功能*
+|
+* Language
+* Theme Color
+* Light/Dark Mode
+|
 * 语言
 * 主题色
 * 浅色/深色
@@ -126,16 +136,20 @@ Feature::
 ====
 
 
-.{theme-astrogon-url} | Homepage style: Soothing, Natural | 主页风格：治愈自然
+.{theme-astrogon-url} | *Homepage style*: Soothing, Natural | *主页风格*：治愈自然
 [%collapsible]
 ====
-[cols="<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
+[cols="^.^1a,<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
 |===
+| Category +
+类别
 ^.^| English
 ^.^| 简体中文
 
 |
-Homepage style: Soothing, Natural::
+*Homepage style:* Soothing, Natural +
+*主页风格*：治愈自然
+|
 * Glassmorphism
 * Soothing
 * Natural
@@ -143,12 +157,7 @@ Homepage style: Soothing, Natural::
 * Crisp
 * Modern
 * Functional
-
-Feature::
-* Light/Dark Mode
-
 |
-主页风格：治愈自然::
 * 毛玻璃特效
 * 治愈
 * 自然
@@ -157,7 +166,12 @@ Feature::
 * 现代
 * 实用
 
-功能::
+|
+*Feature* +
+*功能*
+|
+* Light/Dark Mode
+|
 * 浅色/深色
 |===
 ====
