@@ -14,7 +14,7 @@ image::https://readme-typing-svg.demolab.com?font=Sarasa+Term+SC+Nerd&weight=700
 
 [.text-center]
 --
-https://me.seapianosnow.com/[My personal website(Main) | 个人主页(总入口),role="big"]
+*https://me.seapianosnow.com/[My personal website(Main) | 个人主页(总入口),role="big"]*
 --
 
 
