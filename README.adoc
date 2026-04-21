@@ -12,13 +12,21 @@ image::https://readme-typing-svg.demolab.com?font=Sarasa+Term+SC+Nerd&weight=700
 image::https://readme-typing-svg.demolab.com?font=Sarasa+Term+SC+Nerd&weight=700&size=22&pause=1000&color=B026FF&center=true&vCenter=true&width=512&height=64&lines=%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%E6%B8%B8%E6%88%8F%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E8%80%85;%F0%9F%8E%B5%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90+%F0%9F%8E%B9%E9%92%A2%E7%90%B4+%F0%9F%8E%BB%E5%B0%8F%E6%8F%90%E7%90%B4+%E5%A4%A7%E6%8F%90%E7%90%B4;%F0%9F%AA%82%E8%B7%B3%E4%BC%9E+%F0%9F%9A%B4%E2%80%8D%E2%99%80%EF%B8%8F%E9%AA%91%E8%A1%8C+%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F%E8%B7%91%E6%AD%A5+%F0%9F%8E%BE%E7%BD%91%E7%90%83[Typing SVG, link="https://readme-typing-svg.demolab.com/demo/", align="center"]
 
 
+[.text-center]
+--
+https://me.seapianosnow.com/[My personal website(Main) | 个人主页(总入口),role="big"]
+--
+
+
 - - -
+
 
 ____
 Choose your preferred theme to explore +
 选择你喜欢的主题进行浏览
 ____
 
+****
 .*{theme-darkness-url}* | Homepage style: Deep Space | 主页风格：深邃宇宙
 [%collapsible]
 ====
@@ -51,7 +59,7 @@ Homepage style: Deep Space::
 ====
 
 
-.*{theme-anglefeint-url}* | Homepage style: Geek, Cyberpunk | 主页风格：赛博极客
+.{theme-anglefeint-url} | Homepage style: Geek, Cyberpunk | 主页风格：赛博极客
 [%collapsible]
 ====
 [cols="<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
@@ -61,24 +69,29 @@ Homepage style: Deep Space::
 
 |
 Homepage style: Geek, Cyberpunk::
-* Language
 * Geek
 * Cyberpunk
 * Sci-Fi
 * Retro Terminal
 
+Feature::
+* Language
+
 |
 主页风格：赛博极客::
-* 语言
 * 极客
 * 赛博朋克
 * 未来科幻
 * 复古终端
+
+功能::
+* 语言
+
 |===
 ====
 
 
-.*{theme-twilight-url}* | Homepage style: Fresh & Aesthetic | 主页风格：清新唯美
+.{theme-twilight-url} | Homepage style: Fresh & Aesthetic | 主页风格：清新唯美
 [%collapsible]
 ====
 [cols="<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
@@ -88,28 +101,32 @@ Homepage style: Geek, Cyberpunk::
 
 |
 Homepage style: Fresh & Aesthetic::
-* Language
-* Theme Color
-* Light/Dark Mode
 * Glassmorphism
 * Modern & Minimalist
 * Card-based Layout
 * Fresh & Aesthetic
 
+Feature::
+* Language
+* Theme Color
+* Light/Dark Mode
+
 |
 主页风格：清新唯美::
-* 语言
-* 主题色
-* 浅色/深色
 * 毛玻璃拟态
 * 现代简约
 * 卡片式布局
 * 清新唯美
+
+功能::
+* 语言
+* 主题色
+* 浅色/深色
 |===
 ====
 
 
-.*{theme-astrogon-url}* | Homepage style: Soothing, Natural | 主页风格：治愈自然
+.{theme-astrogon-url} | Homepage style: Soothing, Natural | 主页风格：治愈自然
 [%collapsible]
 ====
 [cols="<.^1a,<.^1a", stripes=even, grid=cols, options="header"]
@@ -119,7 +136,6 @@ Homepage style: Fresh & Aesthetic::
 
 |
 Homepage style: Soothing, Natural::
-* Light/Dark Mode
 * Glassmorphism
 * Soothing
 * Natural
@@ -128,9 +144,11 @@ Homepage style: Soothing, Natural::
 * Modern
 * Functional
 
+Feature::
+* Light/Dark Mode
+
 |
 主页风格：治愈自然::
-* 浅色/深色
 * 毛玻璃特效
 * 治愈
 * 自然
@@ -138,8 +156,12 @@ Homepage style: Soothing, Natural::
 * 清爽
 * 现代
 * 实用
+
+功能::
+* 浅色/深色
 |===
 ====
+****
 
 
 - - -
