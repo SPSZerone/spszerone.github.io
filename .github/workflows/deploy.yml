@@ -1,9 +1,14 @@
-name: Build and Deploy (Triggered by astro-theme-linky-tree)
+name: SPS Publish
 
 on:
-  repository_dispatch:
-    types: [update-from-astro-theme-linky-tree]
   workflow_dispatch:
+  push:
+    branches:
+      - main
+  repository_dispatch:
+    types:
+      - sps_digital_garden_updated
+      - astro_theme_linky_tree_updated
 
 permissions:
   contents: read
@@ -14,23 +19,50 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-env:
-  BUILD_PATH: "./astro-theme-linky-tree"
-
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo Current (Source Code)
-        uses: actions/checkout@v4
 
-      - name: Checkout Repo astro-theme-linky-tree (Source Code)
+    env:
+      THEME: "linky-tree"
+      SPS_DG_PATH: "./sps-digital-garden"
+      SPS_SPSZERONE_GITHUB_IO_PATH: "./spszerone.github.io"
+
+    steps:
+      - name: Prepare Dynamic Environment Variables
+        run: |
+          echo "BUILD_PATH=./astro-theme-${{ env.THEME }}" >> $GITHUB_ENV
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          path: ${{ env.SPS_SPSZERONE_GITHUB_IO_PATH }}
+          ref: 'main'
+
+      - name: Checkout astro-theme-linky-tree
         uses: actions/checkout@v4
         with:
           repository: SPSZerone/astro-theme-linky-tree
           ref: publish
           path: ${{ env.BUILD_PATH }}
-          # token: ${{ secrets.REPO_PAT }}
+          # token: ${{ secrets.SPS_DG_DOWNSTREAM_PUBLISH_PAT }}
+
+      - name: Checkout sps-digital-garden
+        uses: actions/checkout@v4
+        with:
+          repository: SPSZerone/sps-digital-garden
+          ref: main
+          path: ${{ env.SPS_DG_PATH }}
+          token: ${{ secrets.SPS_DG_PUBLISH_PAT }}
+
+      - name: Setup Nushell
+        uses: hustcer/setup-nu@v3
+        with:
+          nu-version: '0.112.2'
+
+      - name: "SPS Digital Garden -> scripts/publish.nu"
+        run: nu ${{ env.SPS_DG_PATH }}/scripts/publish.nu -s astro -t ${{ env.THEME }} -p ${{ env.BUILD_PATH }}
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
